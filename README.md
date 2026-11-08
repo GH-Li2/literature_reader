@@ -24,7 +24,6 @@ DeepSeek Harness（DSH）的文献阅读插件：在同一个界面里读 PDF、
 
 > 安装目录不要移动或删除；DSH 的本地目录安装会链接到该位置。
 
-从源码安装、上传 GitHub、发 Release 的详细步骤见 [PUBLISH.md](./PUBLISH.md)。
 
 ## 使用手册
 
