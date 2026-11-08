@@ -1,0 +1,39 @@
+{
+  "name": "@local/literature-reader",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "description": "DSH 文献阅读与管理插件：拖拽导入 PDF、结构化中文总结、PDF 划词翻译、原文连续阅读、问答与多文献知识汇总。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "locale/*.json",
+    "icon.svg",
+    "scripts/*",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "PUBLISH.md",
+    "CHANGELOG.md",
+    "docs/*",
+    "vendor/python/**",
+    "vendor/pdfjs/*"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

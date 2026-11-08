@@ -1,0 +1,3 @@
+- insert:
+    - id: literature-reader
+      name: '@local/literature-reader'

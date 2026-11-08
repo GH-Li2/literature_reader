@@ -1,0 +1,23 @@
+# Personal library data: never commit PDFs, summaries, translations, notes
+package/library/
+library/
+
+# Local test/export artifacts
+release/
+tmp-*
+screenshots/
+samples/
+*.zip
+*.log
+*.bak
+
+# Python vendor binaries (install locally with scripts/install-vendor.ps1)
+package/vendor/python/
+vendor/python/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
