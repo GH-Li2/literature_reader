@@ -1,6 +1,6 @@
 # Literature Reader / 文献阅读
 
-DeepSeek Harness（DSH）的文献阅读插件：在同一个界面里读 PDF、看结构化中文总结、划词翻译、做高亮/附注，并和 Agent 讨论论文。
+DeepSeek Harness（DSH）的文献阅读插件：在同一个界面里读 PDF、看结构化中文总结、划词翻译、做高亮/附注，并和 Agent 讨论论文。无商业用途，作者邮箱854406722@qq.com
 
 当前版本：**0.5.1**
 
